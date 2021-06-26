@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FrontEndAssignment2/static/css/main.835a7253.chunk.css",
-    "main.js": "/FrontEndAssignment2/static/js/main.ba587d48.chunk.js",
-    "main.js.map": "/FrontEndAssignment2/static/js/main.ba587d48.chunk.js.map",
+    "main.js": "/FrontEndAssignment2/static/js/main.40d17210.chunk.js",
+    "main.js.map": "/FrontEndAssignment2/static/js/main.40d17210.chunk.js.map",
     "runtime-main.js": "/FrontEndAssignment2/static/js/runtime-main.3db755fc.js",
     "runtime-main.js.map": "/FrontEndAssignment2/static/js/runtime-main.3db755fc.js.map",
-    "static/js/2.f537272c.chunk.js": "/FrontEndAssignment2/static/js/2.f537272c.chunk.js",
-    "static/js/2.f537272c.chunk.js.map": "/FrontEndAssignment2/static/js/2.f537272c.chunk.js.map",
+    "static/js/2.6622e2b9.chunk.js": "/FrontEndAssignment2/static/js/2.6622e2b9.chunk.js",
+    "static/js/2.6622e2b9.chunk.js.map": "/FrontEndAssignment2/static/js/2.6622e2b9.chunk.js.map",
     "index.html": "/FrontEndAssignment2/index.html",
     "static/css/main.835a7253.chunk.css.map": "/FrontEndAssignment2/static/css/main.835a7253.chunk.css.map",
-    "static/js/2.f537272c.chunk.js.LICENSE.txt": "/FrontEndAssignment2/static/js/2.f537272c.chunk.js.LICENSE.txt",
+    "static/js/2.6622e2b9.chunk.js.LICENSE.txt": "/FrontEndAssignment2/static/js/2.6622e2b9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/FrontEndAssignment2/static/media/Roboto-Medium.7429a63c.ttf",
     "static/media/Bucky.06307e54.png": "/FrontEndAssignment2/static/media/Bucky.06307e54.png",
     "static/media/BuckyLogo.3be1904a.png": "/FrontEndAssignment2/static/media/BuckyLogo.3be1904a.png",
@@ -53,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3db755fc.js",
-    "static/js/2.f537272c.chunk.js",
+    "static/js/2.6622e2b9.chunk.js",
     "static/css/main.835a7253.chunk.css",
-    "static/js/main.ba587d48.chunk.js"
+    "static/js/main.40d17210.chunk.js"
   ]
 }
