@@ -1,0 +1,51 @@
+.Footer {
+  background-color: #7b2828;
+  color: white;
+  margin-top: 50px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+}
+.Footer ul {
+  list-style: none;
+  display: flex;
+  align-self: flex-end;
+  padding: 0;
+  flex-grow: 0.5;
+  justify-content: space-around;
+}
+.Footer a {
+  font-family: "Roboto Italic Light";
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  bottom: 0;
+}
+.Footer-Image {
+  height: 60px;
+  width: 60px;
+  margin-bottom: -125px;
+  margin-left: calc(50% - 30px);
+}
+@media (max-width: 767px) {
+  .Footer {
+    height: 170px;
+  }
+  .Footer a {
+    font-size: 20px;
+    padding: 5px;
+    bottom: 0;
+  }
+  .Footer li {
+    white-space: pre-line;
+    margin-bottom: 15px;
+  }
+
+  .Footer ul {
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+}

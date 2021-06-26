@@ -1,0 +1,53 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #7b2828;
+  box-sizing: border-box;
+  z-index: 900;
+  box-shadow: 3px 3px 5px #373535;
+}
+
+.Toolbar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.Toolbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 100;
+}
+.Toolbar a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  text-align: right;
+}
+.Toolbar a.active,
+.Toolbar a:hover {
+  color: #c5c5c5;
+  text-decoration: underline;
+}
+.Toolbar-Image {
+  height: 50px;
+  width: 50px;
+  margin-top: 8px;
+}
+
+@media (max-width: 767px) {
+  .Mobile-Toolbar {
+    height: 60px;
+    z-index: 900;
+    width: 100%;
+    position: fixed;
+    background-color: #7b2828;
+    box-shadow: 10px;
+  }
+}

@@ -1,0 +1,44 @@
+.Card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  background: #575757;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Card-Content {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: "Archivo Black";
+}
+.Card-image {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0 0 -125px;
+}
+@media (max-width: 767px) {
+  .Card {
+    width: 240px;
+    height: 250px;
+    transform: translate(-80px);
+  }
+  .Card-Text {
+    margin-top: 50px;
+    font-size: 10px;
+  }
+  .Card-image {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+  }
+}

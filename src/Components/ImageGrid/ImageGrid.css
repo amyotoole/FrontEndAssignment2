@@ -1,0 +1,12 @@
+.ImageGrid {
+  margin-left: auto;
+  margin-right: auto;
+  display: "flex";
+  background-color: transparent;
+  width: 95%;
+  height: 100%;
+}
+.Image {
+  object-position: top;
+  object-fit: none;
+}

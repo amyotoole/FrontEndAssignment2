@@ -1,0 +1,56 @@
+.CharacterDesc {
+  display: block;
+  width: 80%;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  color: white;
+}
+
+.CharacterDescText {
+  position: absolute;
+  color: white;
+  font-size: 19px;
+  width: 43%;
+  text-align: left;
+  z-index: 400;
+  margin-top: -340px;
+  padding: 0 10px 0 14%;
+}
+.CharacterDescText h1 {
+  font-size: 30px;
+  margin: 55px 10px 30px -16px;
+}
+.CharacterDescText h2 {
+  font-size: 25px;
+  margin: -25px 10px 30px -15px;
+}
+.CharacterDescText-Right h1 {
+  font-size: 30px;
+  margin: 55px 10px 30px -16px;
+}
+.CharacterDescText-Right h2 {
+  font-size: 25px;
+  margin: -25px 10px 30px -15px;
+}
+.CharacterDescText-Right {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  width: 40%;
+  text-align: left;
+  z-index: 400;
+  margin-top: -340px;
+  padding: 0 15px 0 45%;
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .CharacterDesct-Right {
+    position: absolute;
+    font-size: 15px;
+    width: 40%;
+    margin-top: -380px;
+    padding: 0 10px 0 53%;
+  }
+}

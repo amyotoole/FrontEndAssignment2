@@ -1,0 +1,65 @@
+.EpisodeDesc {
+  display: block;
+  width: 95%;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.EpisodeDescText {
+  position: absolute;
+  color: white;
+  font-size: 19px;
+  width: 50%;
+  text-align: left;
+  z-index: 400;
+  margin-top: -390px;
+  padding: 0 10px 0 7%;
+}
+.EpisodeDescText h1 {
+  font-size: 30px;
+  margin-left: -25px;
+}
+.EpisodeDescText-Right h1 {
+  font-size: 30px;
+  margin-left: -25px;
+}
+.EpisodeDescText-Right {
+  position: absolute;
+  color: white;
+  font-size: 19px;
+  width: 50%;
+  text-align: left;
+  z-index: 400;
+  margin-top: -390px;
+  padding: 0 10px 0 44%;
+}
+
+@media (max-width: 1024px) and (min-width: 767px) {
+  .EpisodeDescText h1 {
+    font-size: 25px;
+    margin-left: -25px;
+  }
+  .EpisodeDescText-Right h1 {
+    font-size: 25px;
+    margin-left: -25px;
+  }
+  .EpisodeDesc {
+    height: 420px;
+  }
+  .EpisodeDescText {
+    font-size: 17px;
+    width: 50%;
+    margin-top: -410px;
+    padding: 0 10px 0 7%;
+  }
+  .EpisodeDescText-Right {
+    position: absolute;
+    font-size: 17px;
+    width: 50%;
+    margin-top: -410px;
+    padding: 0 10px 0 44%;
+  }
+}

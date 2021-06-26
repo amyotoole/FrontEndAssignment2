@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-color: #27394a;
+  width: 100vw;
+}
+
+.MaxWidth {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .Desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  .Mobile {
+    display: none;
+  }
+}

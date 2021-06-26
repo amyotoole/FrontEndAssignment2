@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Archivo Black";
+  src: url(./Assets/Fonts/ArchivoBlack-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Medium";
+  src: url(./Assets/Fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto Italic Light";
+  src: url(./Assets/Fonts/Roboto-LightItalic.ttf);
+}
+h1,
+li {
+  font-family: "Archivo Black";
+}
+h2 {
+  font-family: "Roboto Italic Light";
+}
+body {
+  margin: 0;
+  font-family: "Roboto Medium";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #27394a;
+  width: 100vm;
+}
+code {
+  font-family: "Archivo Black";
+}
