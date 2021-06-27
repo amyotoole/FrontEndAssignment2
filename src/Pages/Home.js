@@ -4,6 +4,7 @@ import HomeHero from "../Assets/Images/HomeHero.png";
 import Hero from "../Components/Hero/Hero";
 import EpisodeCards from "../Components/Cards/EpisodeCards/EpisodeCards";
 
+//Home component is used to display the Home page with the relevant components
 const Home = () => (
   <Fragment>
     {/*Hero component is used as the page's banner and accepts the text property */}

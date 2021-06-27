@@ -6,6 +6,7 @@ import GalleryMobileHero from "../Assets/Images/GalleryMobileHero.png";
 import MobileImageGrid from "../Components/ImageGrid/MobileImageGrid/MobileImageGrid";
 import Hero from "../Components/Hero/Hero";
 
+//Gallery component is used to display the Gallery page with the relevant components
 const Gallery = () => {
   return (
     <Fragment>
