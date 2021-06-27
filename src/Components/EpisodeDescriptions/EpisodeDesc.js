@@ -7,6 +7,7 @@ import Episode4_Desc from "../../Assets/Images/Episode4_Desc.png";
 import Episode5_Desc from "../../Assets/Images/Episode5_Desc.png";
 import Episode6_Desc from "../../Assets/Images/Episode6_Desc.png";
 import "./EpisodeDesc.css";
+import "../VideoPlayer/VideoPlayer.css";
 import VideoPlayer from "../VideoPlayer/VideoPlayer";
 
 /*
@@ -36,9 +37,8 @@ const EpisodeDesc = () => (
       heroText="Walker appears on Good Morning America and reveals his desire to live up to Rogers' mantle. Barnes tells Wilson that he should have kept the shield before accompanying him to Munich, where the Flag Smashers are stealing a shipment of medicine. Wilson and Barnes attack the group, but the terrorists are all super soldiers and overpower the pair. Traveling to Baltimore, Barnes introduces Wilson to Isaiah Bradley, a veteran super soldier who fought the Winter Soldier in the Korean War. Bradley refuses to help them uncover information about additional super soldiers due to being imprisoned and experimented on by the U.S. government and Hydra for 30 years. Barnes is arrested for missing a therapy appointment, but Walker has him released. Barnes and Wilson refuse to work with Walker, and Barnes suggests to Wilson that they visit the imprisoned Zemo."
     >
       <VideoPlayer
-        //url to Episode 2 on disney+
-
         className="VideoPlayer-Left"
+        //url to Episode 2 on disney+
         url="https://www.disneyplus.com/en-gb/video/1c5d063a-52a4-4942-ac08-67f0ea13e27b"
       />
     </Hero>

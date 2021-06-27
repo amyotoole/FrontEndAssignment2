@@ -4,9 +4,12 @@
   position: absolute;
   height: 121px;
   width: 121px;
+  cursor: pointer;
+  z-index: 401;
 }
 .VideoPlayer-Left {
   left: 20%;
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .VideoPlayer {
@@ -14,11 +17,13 @@
     width: 90px;
     right: 40%;
     margin-top: -520px;
+    cursor: pointer;
   }
   .VideoPlayerTop {
     height: 90px;
     width: 90px;
     right: 40%;
     margin-top: -480px;
+    cursor: pointer;
   }
 }
