@@ -25,7 +25,6 @@ const Layout = ({ children }) => {
         {/*SideDrawer sets the open and closed properties to the appropriate logic */}
         <SideDrawer open={showSideDrawer} closed={closeSideDrawer} />
       </header>
-
       {/*Main tag accepts the children property */}
       <main>{children}</main>
       {/*Footer component is rendered at the bottom of the page */}
