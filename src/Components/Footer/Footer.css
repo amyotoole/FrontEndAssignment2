@@ -27,6 +27,7 @@
   width: 60px;
   margin-bottom: -125px;
   margin-left: calc(50% - 30px);
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   .Footer {
