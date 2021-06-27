@@ -1,0 +1,24 @@
+.VideoPlayer {
+  right: 20%;
+  margin-top: -270px;
+  position: absolute;
+  height: 121px;
+  width: 121px;
+}
+.VideoPlayer-Left {
+  left: 20%;
+}
+@media (max-width: 767px) {
+  .VideoPlayer {
+    height: 90px;
+    width: 90px;
+    right: 40%;
+    margin-top: -520px;
+  }
+  .VideoPlayerTop {
+    height: 90px;
+    width: 90px;
+    right: 40%;
+    margin-top: -480px;
+  }
+}

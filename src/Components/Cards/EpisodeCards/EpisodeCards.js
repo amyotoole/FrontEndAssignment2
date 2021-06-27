@@ -68,6 +68,7 @@ const EpisodeEpisodeCards = () => {
           </div>
         </HorizontalScroller>
       </div>
+      {/*Desktop view of the EpisodeCards */}
       <div className="Desktop MaxWidth">
         <Grid
           container

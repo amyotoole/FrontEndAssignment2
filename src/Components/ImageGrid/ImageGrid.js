@@ -18,11 +18,15 @@ import Zemo from "../../Assets/Images/Zemo.png";
 import Poster1 from "../../Assets/Images/Poster1.png";
 import Poster2 from "../../Assets/Images/Poster2.png";
 
+//ImageList and Image Item are imported from Material UI to display the image gallery within an organised grid.
+
+//Allows for varied container sizes and ratios to allow images to span multiple rows/columns
 const srcset = (image, size, rows = 1, cols = 1) => `${image}?w=${
   size * cols
 }&h=${size * rows}&fit=crop&auto=format 1x,
 ${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format&dpr=2 2x`;
 
+//Array table to host the required images and defines the number of rows/columns the image should span over
 const itemData = [
   {
     img: Episode1,
@@ -132,6 +136,9 @@ const itemData = [
   },
 ];
 
+/*Quilted variant has been used to allow emphasis on certain images.
+Number of columns and row height are defined to ensure images are displayed to the correct width and height. 
+*/
 const ImageGrid = () => (
   <ImageList className="ImageGrid" variant="quilted" cols={6} rowHeight={290}>
     {itemData.map((item) => (

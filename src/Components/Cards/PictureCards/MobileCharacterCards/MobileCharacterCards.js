@@ -10,6 +10,9 @@ import FlagSmasher from "../../../../Assets/Images/FlagSmasher.png";
 
 const MobileCharacterCards = () => (
   <Fragment>
+    {/*PictureCard is imported to be used as the MobileCharacterCards. 
+    MobileCharacterCards displays the Character's image, name, and a brief character description
+    The component accepts custom image styling, an image, the heading with styling and an character description with styling. */}
     <PictureCard
       imageClassName="CharacterImage"
       image={Sam}

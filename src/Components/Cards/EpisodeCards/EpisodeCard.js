@@ -7,6 +7,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import "./EpisodeCards.css";
 
+//EpisodeCard is used to display the Episode image on the Home page. The component accepts a heading, image and NavLink. When clicked the component will redirect to the Episodes page.
 const EpisodeCard = ({ className, imageClassName, image, heading }) => (
   //StyledEngineProvider is used to override the styles set by Material UI and allow custom styling
   <StyledEngineProvider injectFirst>

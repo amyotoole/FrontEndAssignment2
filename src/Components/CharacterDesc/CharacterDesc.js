@@ -8,8 +8,13 @@ import Sharon_Desc from "../../Assets/Images/Sharon_Desc.png";
 import FlagSmasher_Desc from "../../Assets/Images/FlagSmasher_Desc.png";
 import "./CharacterDesc.css";
 
+/*
+CharacterDecs component displays the character's name, image and a brief description of the character.
+Here the properties are passed to the Hero component.
+*/
 const CharacterDescs = () => (
   <Fragment>
+    {/*Hero component is imported to display the background image which the text is displayed over. */}
     <Hero
       className="CharacterDesc"
       image={Sam_Desc}

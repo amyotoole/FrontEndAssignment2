@@ -1,8 +1,10 @@
 import React from "react";
 import "./Hero.css";
 
-// Hero Component used for the page Banner, CharacterDesc, and EpisodeDesc
-// Destructed props to avoid repeating `props.`
+/* Hero Component used for the page Banner, CharacterDesc, and EpisodeDesc
+Destructed props to avoid repeating `props.
+Hero accepts an image and can have text overlaid on the image provided. 
+*/
 const Hero = ({
   className,
   heading,
@@ -10,6 +12,7 @@ const Hero = ({
   heroText,
   image,
   textClassName,
+  children,
 }) => (
   <div>
     {/*Hero accepts an image with custom styling */}
@@ -20,6 +23,7 @@ const Hero = ({
       <h2>{subHeading}</h2>
       {heroText}
     </p>
+    {children}
   </div>
 );
 

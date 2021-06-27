@@ -8,8 +8,9 @@ import Grid from "@material-ui/core/Grid";
 import BehindCard from "../BehindCard/BehindCard";
 
 const CharacterCards = () => (
-  //Using the Grid API, the Grid component is imported from Material UI
-  //The Grid component is a container for the CharacterCards to ensure they are displayed in a row & is responsive to the screen size
+  /*Using the Grid API, the Grid component is imported from Material UI
+  The Grid component is a container for the CharacterCards to ensure they are displayed in a row & is responsive to the screen size.
+  CharacterCards Component combines the CharacterCard and BehindCard components. The image, heading and className properties are passed here. */
   <div className="MaxWidth">
     <Grid container direction="row" justify="space-around" alignItems="center">
       {/*BehindCard is imported and passed the name of the Character to be displayed */}

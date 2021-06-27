@@ -6,6 +6,7 @@ import MobileCharacterCards from "../Components/Cards/PictureCards/MobileCharact
 import Hero from "../Components/Hero/Hero";
 import CharacterDescs from "../Components/CharacterDesc/CharacterDesc";
 
+//Characters component is used to display the Characters page with the relevant components
 const Characters = () => {
   return (
     <Fragment>

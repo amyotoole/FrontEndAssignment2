@@ -6,6 +6,7 @@ import MobileEpisodeHero from "../Assets/Images/MobileEpisodeHero.png";
 import MobileHero from "../Components/Hero/MobileHero/MobileHero";
 import MobileEpisodeCards from "../Components/Cards/PictureCards/MobileEpisodeCards/MobileEpisodeCards";
 
+//Episodes component is used to display the Episodes page with the relevant components
 const Episodes = () => {
   return (
     <Fragment>
